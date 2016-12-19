@@ -101,8 +101,7 @@
 		border: 1px solid black;
 	}
 
-	.dipl { /*margin:0.5em;*/
-		background-color:#FFB6C1;
+	.dipl { background-color:#FFB6C1;
 		margin-left:10%;
 		display:inline;
 		float: left;
