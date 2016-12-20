@@ -3,32 +3,42 @@
 
     <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="cv.css">
+<link href="bootstrap.css" rel="stylesheet"><!-- BootStrap -->
+<link rel="stylesheet" type="text/css" href="boot_cv.css">
 
 
 
   </head>
-<nav>
-	<ul id="nav">
-		<li><a href="#comp1">-Compétences-</a></li>
-		<li><a href="#exp1">-Expériences-</a></li>
-		<li><a href="#dipl1">-Diplômes-</a></li>
-		<li><a href="#lois1">-Loisirs-</a></li>
-	</ul>
-</nav>
-<body>
-	
-  	<header>
-		<h1>Développeuse Logiciel</h1>
-		<div id="civ">
-		<p>Browne Angie</p>
-		<p>25 chemin des merles</p>
-		<p>34400 Lunel</p><!-- infos perso -->
-		</div>
-	</header>
 
-		<section class="comp"><!-- compétences -->
-				<h2 id="comp1">Compétences</h2>
+
+	
+  <body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+		
+		   <ul class="nav navbar-nav">
+			<li><a href="#comp1">Compétences</a></li>
+			<li><a href="#exp1">Expériences</a></li>
+			<li><a href="#dipl1">Diplômes</a></li>
+			<li><a href="#lois1">Loisirs</a></li>
+		  </ul>
+		</div>
+	 </nav>
+<div class="container">
+<div class="row">
+		<header class="col-md-6">
+			
+				<h1>Développeuse Logiciel</h1>
+		
+		</header>
+
+</div>
+
+	    <div class="row">
+		<section class="bloc col-md-offset-6 col-md-6" id="comp1"><!-- compétences -->
+			
+			     <h2>Compétences</h2>
 	
 				<ul class="liste">
 					<li>Casse-couille</li>
@@ -36,47 +46,58 @@
 					<li>Dormir debout..?</li>
 				
 				</ul>
-			
+			     </div>
+		
+		    
+		</section><!--compétences-->
 
-		</section>
+	<div class="row">
 
-		<section class="exp"><!-- expériences -->
+		<section class="bloc1 col-md-6" id="exp1"><!-- expériences -->
+		    
 			
-				<h2 id="exp1">Expériences</h2>
-					<article class="art">
+				<h2>Expériences</h2>
+					<article>
 						<h4>2014 à 2016 :</h4>
 						<p>Conception de recettes pour ptits monstres</p>
 					</article>
-					<article class="art">
+					<article>
 						<h4>2011 à 2013 :</h4>
 						<p>Eleveuse et dompteuse de ptits monstres</p>
 					</article>
-		 			<article class="art">
+		 			<article>
 						<h4>2009 à 2010 :</h4>
 						<p>Croisière à destination de l'île aux enfants</p>
-					</article>
-		</section>
-				
-		<section class="dipl"><!-- diplome -->
+				</article>
+			</section>
+		    
+		</div>
+			<div class="row">	
+		<section class="bloc col-md-offset-6 col-md-6" id="dipl1"><!-- diplome -->
 	
-					<h2 id="dipl1">Diplômes</h2>
-				<ul class="liste">
+					<h2>Diplômes</h2>
+				<ul>
 					<li>Haccp</li>
 					<li>Bns</li>
 					<li>Bafa</li>
 				</ul>
 
 		</section>
-
-		<section class="lois"><!-- loisirs -->
-					<h2 id="lois1">Loisirs</h2>
-				<ul class="liste">
+</div>
+<div class="row ">
+		<section class="bloc1 col-md-6" id="lois1"><!-- loisirs -->
+			
+				
+					<h2>Loisirs</h2>
+				<ul>
 					<li>Photo</li>
 					<li>Roller</li>
 					<li>Boxe</li>
-
-		</section>
-
+				</ul>
+			
+			</section>
+		</div>	
+	</div>		
 </body>
 
 

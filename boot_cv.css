@@ -1,0 +1,43 @@
+	body, html 
+		{ height:100%;
+		width:100%;
+		background-color:black;
+	}
+
+	header	{background-color:#7D34CC;
+		 color:white;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		height:25vh;
+	}
+
+	li	
+		{list-style:none;
+	}
+
+	.bloc {
+		background-color:#AFEEEE;
+		
+	}
+
+	.bloc1 {
+		background-color:#FFB6C1;	
+	}
+
+	.row {
+		width:100%;
+		
+	}
+
+	article, ul, h2, h1 {
+		
+		text-align:center;
+		
+	}
+
+	h1{
+		margin: 0;
+	}
+
+

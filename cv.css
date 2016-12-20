@@ -86,35 +86,35 @@
 	}
 
 	.exp {  float:right;
-		margin-right:10%;
+		/*margin-right:10%;
 		background-color:#7FFFD4;
 		display: inline;
-		width:48%;
+		width:48%;*/
 		border: 1px solid black;
 	}
 
 	.comp { background-color:#AFEEEE;
-		margin-left:10%;
+		/*margin-left:10%;
 		width:33%;
 		height:33%;
-		margin-top:17.5%;
+		margin-top:17.5%;*/
 		border: 1px solid black;
 	}
 
 	.dipl { background-color:#FFB6C1;
-		margin-left:10%;
+		/*margin-left:10%;
 		display:inline;
 		float: left;
-		width:33%;
+		width:33%;*/
 		border: 1px solid black;
 	}
 
 	.lois{  background-color:#BA55D3;
-		margin-left:6%;
+		/*margin-left:6%;
 		display:inline;
 		float: right;
 		width:48%;
-		margin-right:10%;
+		margin-right:10%;*/
 		border: 1px solid black;
 	}
 
